@@ -31,7 +31,7 @@ To clone this repository and run the projects, follow these steps:
    ```bash
    pip install -r requirements.txt
    ```
-4.Run the project:
+4. Run the project:
   ```bash
   npm run dev
 ```
