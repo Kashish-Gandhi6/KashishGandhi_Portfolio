@@ -32,9 +32,9 @@ To clone this repository and run the projects, follow these steps:
    pip install -r requirements.txt
    ```
 4. Run the project:
-  ```bash
-  npm run dev
-```
+   ```bash
+   npm run dev
+   ```
 ## Contact
 Feel free to reach out to me at:
 
