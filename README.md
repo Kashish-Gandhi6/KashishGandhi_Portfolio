@@ -22,12 +22,15 @@ To clone this repository and run the projects, follow these steps:
 1. **Clone the repository**:
    ```bash
    https://github.com/Kashish-G/KashishGandhi_Portfolio.git
+   ```
 2. Navigate into the directory:
    ```bash
    cd KashishGandhi_Portfolio
+   ```
 3. Install the required packages: Depending on the project, you may need to install certain packages. Typically, this is done using pip. For example:
    ```bash
    pip install -r requirements.txt
+   ```
 4.Run the project:
   ```bash
   npm run dev
