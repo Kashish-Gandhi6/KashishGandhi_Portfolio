@@ -38,7 +38,7 @@ To clone this repository and run the projects, follow these steps:
 ## Contact
 Feel free to reach out to me at:
 
-Email: kashishgandhi6112003@gmail.com
-LinkedIn: [Kashish Gandhi](https://www.linkedin.com/in/kashishpgandhi/)
+Email: kashishgandhi6112003@gmail.com<br>
+LinkedIn: [Kashish Gandhi](https://www.linkedin.com/in/kashishpgandhi/)<br>
 GitHub: [Kashish-G](https://github.com/Kashish-G)
 
