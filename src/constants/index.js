@@ -28,7 +28,8 @@ import {
     mindscape,
     shopgpt,
     tensionnews,
-    hungerzero
+    hungerzero,
+    myntra
   } from "../assets";
   
   export const navLinks = [
@@ -130,14 +131,24 @@ import {
   
   const experiences = [
     {
+      title: "Upcoming Software Developer Intern",
+      company_name: "Myntra",
+      icon: myntra,
+      iconBg: "#FFFFFF",
+      date: "Jan 2025 - Jun 2025",
+      points: [
+        "Part of the Data Science Team"
+      ],
+    },
+    {
       title: "Research Intern",
       company_name: "Veermata Jijabai Technological Institute",
       icon: vjti,
       iconBg: "#E6DEDD",
       date: "Mar 2024 - Present",
       points: [
-        "Collaborated with Dr. Faruk Kazi and Prof. Parul Sindhwad to develop a phishing detection system using the PhishTank and Mendeley datasets, leveraging SVM and RFR for improved precision.",
-  "Implemented feature extraction techniques such as color histogram, wavelet hash, SIFT, LBP, and ORB for screenshot evaluation, enhancing detection accuracy through multimodal analysis.",
+        "Collaborated with Dr. Faruk Kazi and Prof. Parul Sindhwad to develop a phishing detection system using the PhishTank and Mendeley datasets, using a combination of classical computer vision and deep learning.",
+  "Implemented feature extraction techniques such as color histogram, wavelet hash, SIFT, LBP, and ORB for screenshot evaluation, enhancing detection accuracy through multimodal analysis and employing models like Mask R-CNN, DeepLabV3+, PSPNet.",
   "Built a combined classifier with the Unimass dataset for URL, HTML, and visual inspection features, and created a Google Chrome extension for real-time phishing alerts.",
       ],
     },
@@ -148,10 +159,10 @@ import {
       iconBg: "#bb0201",
       date: "May 2023 - Present",
       points: [
-        "Worked on segmentation of nuclei from fluorescent images and performed comparative statistical analysis of nuclei attributes and further expanding it to other biological data.",
-        "Guided by Dr. Min Xu and Mr. Mostofa Rafid Uddin, a PhD student, this project was conducted in collaboration with the University of Pittsburgh.",
-        "Currently working on enhancing point visual affinity for cryo-ET images",
-      ],
+        "Fine-tuned the CellPose model for segmenting nuclei from DAPI-stained images, addressing challenges like large image sizes and overlapping nuclei.",
+        "Applied linear mixed models to analyze nuclei morphology, revealing key insights on aging across species and age groups.",
+        "Contributed to research which is to be submitted to Nature Communications, focusing on the link between nuclei morphology and biological aging, under the guidance of Dr. Min Xu and his PhD student Mostofa Uddin."
+      ],      
       
       
     },
@@ -217,7 +228,7 @@ import {
     {
       name: "FashionFushion Try-On",
       description:
-        "It enhances online shopping by enabling users to visualize clothing on themselves and receive personalized outfit recommendations. Developed for Myntra's HackerRamp WeForShe Hackathon, this project won pre-finalist status and combines virtual try-on features with trend analysis for a more engaging shopping experience.",
+        "It enhances online shopping by enabling users to visualize clothing on themselves and receive personalized outfit recommendations using trend analysis and human-in-the-loop reinforcement learning. Developed for Myntra's HackerRamp WeForShe Hackathon, this project won pre-finalist status and I recieved a six-months internship opportunity.",
       tags: [
         {
           name: "SegMind-Diffusion",

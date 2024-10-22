@@ -3,7 +3,7 @@ import { Tilt } from "react-tilt";
 import { motion } from "framer-motion";
 
 import { styles } from "../styles";
-import { github, pdf, solarpaper, deepfake, pcos, disease, phishing,websiteicon } from "../assets";
+import { github, pdf, solarpaper, deepfake, pcos, disease, phishing,websiteicon,cyberbullying } from "../assets";
 import { SectionWrapper } from "../hoc";
 import { projects } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
@@ -22,7 +22,7 @@ const papers = [
   },
   {
     title: "Detecting Polycystic Ovary Syndrome Through Blending Ensemble Method",
-    description: "To be published in Lecture Notes in Networks and Systems - Book series, Advances in Data and Information Sciences 2024 and Accepted in 6th International Conference on Data & Information Sciences(ICDIS-2024)",
+    description: "To be published in Lecture Notes in Networks and Systems - Springer Book series, index by SCOPUS. Accepted and presented in 6th International Conference on Data & Information Sciences(ICDIS-2024)",
     tags: [
       { name: "BlendingEnsemble", color: "blue-text-gradient" },
       { name: "ML", color: "green-text-gradient" },
@@ -33,7 +33,7 @@ const papers = [
   },
   {
     title: "Predicting Solar Energy Generation with Machine Learning based on AQI and Weather Features",
-    description: "Accepted in AISD 2024 (Second International Workshop on Artificial Intelligence: Empowering Sustainable Development)",
+    description: "Accepted and presented in AISD 2024. Awarded 2nd Best Paper at the conference. Paper to be published in CEUR Workshop proceedings",
     tags: [
       { name: "LSTM", color: "blue-text-gradient" },
       { name: "ZeroInflated", color: "green-text-gradient" },
@@ -44,7 +44,7 @@ const papers = [
   },
   {
     title: "Infectious Disease Forecasting in India Using LLM’s and Deep Learning",
-    description: "Accepted in 1st International Conference on Emerging Trends in Machine Learning, Data Science & Internet of Things",
+    description: "Presented in 1st International Conference on Emerging Trends in Machine Learning, Data Science & Internet of Things. Under Review in Procedia Computer Science Journal",
     image: disease,
     tags: [
       { name: "LLM", color: "blue-text-gradient" },
@@ -54,15 +54,27 @@ const papers = [
     pdf_link: "https://drive.google.com/drive/folders/1F-Fbea4idpAsPvbG5w3hgKFjJ1sdf_cc?usp=sharing",
   },
   {
+    title: "Cyberbullying or just Sarcasm? Unmasking Coordinated Networks on Reddit",
+    description: "Accepted and presented in NCACSI - 24. Under Review in International Journal of Engineering Research in Computer Science and Engineering.",
+    image: cyberbullying,
+    tags: [
+      { name: "BERT", color: "blue-text-gradient" },
+      { name: "RoBERTA", color: "green-text-gradient" },
+      { name: "GraphNetworkAnalysis", color: "pink-text-gradient" },
+    ],
+    pdf_link: "https://drive.google.com/drive/folders/1Z97i7zi3FbGrr1my0C90OL3PXZXh0GsG?usp=sharing",
+  },
+  {
     title: "PhishGuard: Multi-Faceted Phishing Detection: Leveraging URLs, HTML Features, and Visual Cues",
     description: "Under Review in a Journal",
     image: phishing,
     tags: [
-      { name: "CNN", color: "blue-text-gradient" },
+      { name: "MaskR-CNN", color: "blue-text-gradient" },
       { name: "FeatureExtraction", color: "green-text-gradient" },
       { name: "DL", color: "pink-text-gradient" },
     ],
   },
+  
 ];
 
 const ProjectCard = ({ index, name, description, tags, image, source_code_link, website_link }) => {

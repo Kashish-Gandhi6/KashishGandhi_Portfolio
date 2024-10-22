@@ -52,7 +52,9 @@ import bplan from "./achievements/bplan.jpg";
 import worldtopper from "./achievements/worldtopper.jpg";
 import schooltopper from "./achievements/schooltopper.jpg";
 import hungerzero from "./hungerzero.png";
-import websiteicon from "./websiteicon.png"
+import websiteicon from "./websiteicon.png";
+import myntra from "./company/myntra.png";
+import cyberbullying from "./cyberbullying.png"
 export {
   logo,
   backend,
@@ -105,5 +107,7 @@ export {
   worldtopper,
   schooltopper,
   hungerzero,
-  websiteicon
+  websiteicon,
+  myntra,
+  cyberbullying
 };
