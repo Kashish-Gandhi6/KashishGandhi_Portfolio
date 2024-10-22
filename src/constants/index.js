@@ -171,7 +171,7 @@ import {
       company_name: "Dwarkadas J Sanghvi College of Engineering",
       icon: djsce,
       iconBg: "#FFFFFF",
-      date: "Oct 2023 - Apr 2024",
+      date: "Aug 2023 - Jan 2024",
       points: [
         "Served as a Teaching Assistant for Prof. Aniket Kore, contributing to the effective delivery of course content.",
         "Supported students in their learning journey by providing guidance and clarification on course material.",
