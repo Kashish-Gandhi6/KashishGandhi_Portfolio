@@ -161,7 +161,7 @@ import {
       points: [
         "Fine-tuned the CellPose model for segmenting nuclei from DAPI-stained images, addressing challenges like large image sizes and overlapping nuclei.",
         "Applied linear mixed models to analyze nuclei morphology, revealing key insights on aging across species and age groups.",
-        "Contributed to research which is to be submitted to Nature Communications, focusing on the link between nuclei morphology and biological aging, under the guidance of Dr. Min Xu and his PhD student Mostofa Uddin."
+        "Contributed to research which is to be submitted to Nature Communications Journal, focusing on the link between nuclei morphology and biological aging, under the guidance of Dr. Min Xu and his PhD student Mostofa Uddin."
       ],      
       
       
