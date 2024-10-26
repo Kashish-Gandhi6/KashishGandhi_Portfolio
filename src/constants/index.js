@@ -132,7 +132,7 @@ import {
   const experiences = [
     {
       title: "Upcoming Software Developer Intern",
-      company_name: "Myntra",
+      company_name: "Myntra Designs Private Limited",
       icon: myntra,
       iconBg: "#FFFFFF",
       date: "Jan 2025 - Jun 2025",
