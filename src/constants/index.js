@@ -182,7 +182,7 @@ import {
     },
     {
       title: "Software And Machine Learning Developer",
-      company_name: "NextGen Technoventures",
+      company_name: "Nextgen Techno Ventures Private Ltd",
       icon: nextgen,
       iconBg: "#203047",
       date: "Jun 2023 - Aug 2023",
