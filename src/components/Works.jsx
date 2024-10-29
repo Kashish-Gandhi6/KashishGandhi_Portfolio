@@ -44,7 +44,7 @@ const papers = [
   },
   {
     title: "Infectious Disease Forecasting in India Using LLM’s and Deep Learning",
-    description: "Presented in 1st International Conference on Emerging Trends in Machine Learning, Data Science & Internet of Things. Under Review in Procedia Computer Science Journal",
+    description: "Presented in 3rd International conference on Machine Learning and Data Engineering (ICMLDE 2024). Under Review in Procedia Computer Science Journal",
     image: disease,
     tags: [
       { name: "LLM", color: "blue-text-gradient" },
