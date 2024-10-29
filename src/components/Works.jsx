@@ -18,7 +18,7 @@ const papers = [
       { name: "ANN", color: "pink-text-gradient" },
     ],
     image: deepfake,
-    pdf_link: "https://journal.esrgroups.org/jes/article/view/6126",
+    pdf_link: "https://www.doi.org/10.53555/jes.v20i10s.6126",
   },
   {
     title: "Detecting Polycystic Ovary Syndrome Through Blending Ensemble Method",
@@ -40,7 +40,7 @@ const papers = [
       { name: "PowerTransform", color: "pink-text-gradient" },
     ],
     image: solarpaper,
-    pdf_link: "https://arxiv.org/abs/2408.12476#:~:text=Various%20Machine%20Learning%20algorithms%20and,Quality%20Index%20and%20weather%20features.",
+    pdf_link: "https://doi.org/10.48550/arXiv.2408.12476",
   },
   {
     title: "Infectious Disease Forecasting in India Using LLM’s and Deep Learning",
@@ -51,7 +51,7 @@ const papers = [
       { name: "NLP", color: "green-text-gradient" },
       { name: "DL", color: "pink-text-gradient" },
     ],
-    pdf_link: "https://drive.google.com/drive/folders/1F-Fbea4idpAsPvbG5w3hgKFjJ1sdf_cc?usp=sharing",
+    pdf_link: "https://doi.org/10.48550/arXiv.2410.20168",
   },
   {
     title: "Cyberbullying or just Sarcasm? Unmasking Coordinated Networks on Reddit",
@@ -62,7 +62,7 @@ const papers = [
       { name: "RoBERTA", color: "green-text-gradient" },
       { name: "GraphNetworkAnalysis", color: "pink-text-gradient" },
     ],
-    pdf_link: "https://drive.google.com/drive/folders/1Z97i7zi3FbGrr1my0C90OL3PXZXh0GsG?usp=sharing",
+    pdf_link: "https://doi.org/10.48550/arXiv.2410.20170",
   },
   {
     title: "PhishGuard: Multi-Faceted Phishing Detection: Leveraging URLs, HTML Features, and Visual Cues",
