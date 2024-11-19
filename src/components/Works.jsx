@@ -186,9 +186,27 @@ const Works = () => {
     <>
       <motion.div variants={textVariant()}>
         <p className={styles.sectionSubText}>My work</p>
+        <h2 className={styles.sectionHeadText}>Academic Papers.</h2>
+      </motion.div>
+      <div className="w-full flex">
+        <motion.p
+          variants={fadeIn("", "", 0.1, 1)}
+          className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
+        >
+          This section showcases my academic contributions, highlighting my research efforts and findings. Each paper has either been published/accepted or under review, links to their respective PDFs are provided, illustrating my ability to conduct in-depth research and present findings effectively.
+          </motion.p>
+      </div>
+
+      <div ref={papersRef} className="mt-20 flex flex-nowrap gap-4 scroll-hidden">
+        {papers.map((paper, index) => (
+          <PaperCard key={`${paper.title}-${index}`} index={index} {...paper} />
+        ))}
+      </div>
+      
+
+      <motion.div variants={textVariant()} className="mt-20">
         <h2 className={styles.sectionHeadText}>Academic Projects.</h2>
       </motion.div>
-
       <div className="w-full flex">
         <motion.p
           variants={fadeIn("", "", 0.1, 1)}
@@ -202,30 +220,13 @@ const Works = () => {
         </motion.p>
       </div>
 
+
       <div ref={projectsRef} className="mt-20 flex flex-nowrap gap-4 scroll-hidden">
         {projects.map((project, index) => (
           <ProjectCard key={`${project}-${index}`} index={index} {...project} />
         ))}
       </div>
-
-      <motion.div variants={textVariant()} className="mt-20">
-        <h2 className={styles.sectionHeadText}>Academic Papers.</h2>
-      </motion.div>
-      <div className="w-full flex">
-        <motion.p
-          variants={fadeIn("", "", 0.1, 1)}
-          className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
-        >
-          This section showcases my academic contributions, highlighting my research efforts and findings. Each paper has either been published/accepted or under review, links to their respective PDFs are provided, illustrating my ability to conduct in-depth research and present findings effectively.
-          </motion.p>
-      </div>
-
-
-      <div ref={papersRef} className="mt-20 flex flex-nowrap gap-4 scroll-hidden">
-        {papers.map((paper, index) => (
-          <PaperCard key={`${paper.title}-${index}`} index={index} {...paper} />
-        ))}
-      </div>
+      
     </>
   );
 };
