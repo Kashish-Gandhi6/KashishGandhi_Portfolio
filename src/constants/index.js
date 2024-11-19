@@ -29,7 +29,8 @@ import {
     shopgpt,
     tensionnews,
     hungerzero,
-    myntra
+    myntra,
+    mit
   } from "../assets";
   
   export const navLinks = [
@@ -142,15 +143,16 @@ import {
     },
     {
       title: "Research Intern",
-      company_name: "Veermata Jijabai Technological Institute",
-      icon: vjti,
-      iconBg: "#E6DEDD",
-      date: "Mar 2024 - Present",
+      company_name: "Massachusetts Institute of Technology",
+      icon: mit,
+      iconBg: "#ffffff",
+      date: "Nov 2024 - Present",
       points: [
-        "Collaborated with Dr. Faruk Kazi and Prof. Parul Sindhwad to develop a phishing detection system using the PhishTank and Mendeley datasets, using a combination of classical computer vision and deep learning.",
-  "Implemented feature extraction techniques such as color histogram, wavelet hash, SIFT, LBP, and ORB for screenshot evaluation, enhancing detection accuracy through multimodal analysis and employing models like Mask R-CNN, DeepLabV3+, PSPNet.",
-  "Built a combined classifier with the Unimass dataset for URL, HTML, and visual inspection features, and created a Google Chrome extension for real-time phishing alerts.",
-      ],
+        "Working in AeroAstro Lab under guidance of Dr. Hamsa Balakrishnan and PhD student Jasmine Jerry Aloor.",
+        "Collaborating in a project on reinforcement learning using JaxMARL, Large Language Models (LLMs), and Graph Neural Networks (GNNs)"
+      ],      
+      
+      
     },
     {
       title: "Research Intern",
@@ -165,6 +167,18 @@ import {
       ],      
       
       
+    },
+    {
+      title: "Research Intern",
+      company_name: "Veermata Jijabai Technological Institute",
+      icon: vjti,
+      iconBg: "#E6DEDD",
+      date: "Mar 2024 - Oct 2024",
+      points: [
+        "Collaborated with Dr. Faruk Kazi and Prof. Parul Sindhwad to develop a phishing detection system using the PhishTank and Mendeley datasets, using a combination of classical computer vision and deep learning.",
+  "Implemented feature extraction techniques such as color histogram, wavelet hash, SIFT, LBP, and ORB for screenshot evaluation, enhancing detection accuracy through multimodal analysis and employing models like Mask R-CNN, DeepLabV3+, PSPNet.",
+  "Built a combined classifier with the Unimass dataset for URL, HTML, and visual inspection features, and created a Google Chrome extension for real-time phishing alerts.",
+      ],
     },
     {
       title: "Teaching Assistant",

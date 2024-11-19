@@ -33,7 +33,7 @@ const papers = [
   },
   {
     title: "Predicting Solar Energy Generation with Machine Learning based on AQI and Weather Features",
-    description: "Accepted and presented in AISD 2024. Awarded 2nd Best Paper at the conference. Paper to be published in CEUR Workshop proceedings",
+    description: "Accepted and presented in AISD 2024. Awarded 2nd Best Paper at the workshop.",
     tags: [
       { name: "LSTM", color: "blue-text-gradient" },
       { name: "ZeroInflated", color: "green-text-gradient" },
@@ -55,18 +55,18 @@ const papers = [
   },
   {
     title: "Cyberbullying or just Sarcasm? Unmasking Coordinated Networks on Reddit",
-    description: "Accepted and presented in NCACSI - 24. Under Review in International Journal of Engineering Research in Computer Science and Engineering.",
+    description: "Published in International Journal of Engineering Research in Computer Science and Engineering.",
     image: cyberbullying,
     tags: [
       { name: "BERT", color: "blue-text-gradient" },
       { name: "RoBERTA", color: "green-text-gradient" },
       { name: "GraphNetworkAnalysis", color: "pink-text-gradient" },
     ],
-    pdf_link: "https://doi.org/10.48550/arXiv.2410.20170",
+    pdf_link: "https://doi.org/10.36647/IJERCSE/11.11.Art001",
   },
   {
     title: "PhishGuard: Multi-Faceted Phishing Detection: Leveraging URLs, HTML Features, and Visual Cues",
-    description: "Under Review in a Journal",
+    description: "Under Review in a Internation Journal of Information Technology",
     image: phishing,
     tags: [
       { name: "MaskR-CNN", color: "blue-text-gradient" },

@@ -54,7 +54,8 @@ import schooltopper from "./achievements/schooltopper.jpg";
 import hungerzero from "./hungerzero.png";
 import websiteicon from "./websiteicon.png";
 import myntra from "./company/myntra.png";
-import cyberbullying from "./cyberbullying.png"
+import cyberbullying from "./cyberbullying.png";
+import mit from "./company/mit.svg";
 export {
   logo,
   backend,
@@ -109,5 +110,6 @@ export {
   hungerzero,
   websiteicon,
   myntra,
-  cyberbullying
+  cyberbullying,
+  mit
 };

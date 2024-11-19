@@ -48,7 +48,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I am an ML developer, computer vision enthusiast, and full-stack developer currently pursuing a major in <b>Computer Science</b>. I am interning as a research intern at <b>Carnegie Mellon University</b> and <b>VJTI</b>. Previously, I worked as an SDE and ML developer at a startup, where I gained diverse experience in both software development and machine learning. I am passionate about leveraging cutting-edge AI technologies to solve real-world problems, with a strong focus on creating impactful, scalable solutions.
+        I am an ML developer, computer vision enthusiast, and full-stack developer currently pursuing a major in <b>Computer Engineering</b>. I am interning as a research intern at <b>MIT</b>, <b>CMU</b> and <b>VJTI</b>. I am an upcoming Software Developer Intern at <b>Myntra</b>. Previously, I worked as an SDE and ML developer at a startup, where I gained diverse experience in both software development and machine learning. I am passionate about leveraging cutting-edge AI technologies to solve real-world problems, with a strong focus on creating impactful, scalable solutions.
       </motion.p>
       
 
