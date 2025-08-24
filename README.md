@@ -20,8 +20,8 @@ I am a Bachelor of Technology candidate in Computer Engineering from Dwarkadas J
 To clone this repository and run the projects, follow these steps:
 
 1. **Clone the repository**:
-   ```bash
-  https://github.com/Kashish-Gandhi6/KashishGandhi_Portfolio.git
+   ```
+   https://github.com/Kashish-Gandhi6/KashishGandhi_Portfolio.git
    ```
 2. Navigate into the directory:
    ```bash
