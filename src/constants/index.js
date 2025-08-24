@@ -131,60 +131,48 @@ import {
   ];
   
   const experiences = [
+     {
+    title: "Computer Vision Research Intern",
+    company_name: "Carnegie Mellon University",
+    icon: cmu,
+    iconBg: "#bb0201",
+    date: "May 2023 - Jul 2025",
+    points: [
+      "Delivered near human-level zero-shot segmentation on 3D cryo-ET by fine-tuning Stable Diffusion (LoRA) and applying multi-scale spectral clustering, outperforming unsupervised baselines without annotations.",
+      "Segmented nuclei in gigapixel RNAscope images (IoU 0.84) with fine-tuned CellPose; modeled morphology via unsupervised deep learning and linear mixed models to reveal neuron-type and age-related patterns.",
+      "Working under the guidance of Dr. Min Xu in the Xu Lab, focusing on cutting-edge computer vision applications in computational biology and cryo-electron tomography."
+    ],
+  },
     {
-      title: "Upcoming Software Developer Intern",
-      company_name: "Myntra Designs Private Limited",
-      icon: myntra,
-      iconBg: "#FFFFFF",
-      date: "Jan 2025 - Jun 2025",
-      points: [
-        "Part of the Data Science Team"
-      ],
-    },
-    {
-      title: "Research Intern",
-      company_name: "Massachusetts Institute of Technology",
-      icon: mit,
-      iconBg: "#ffffff",
-      date: "Nov 2024 - Present",
-      points: [
-        "Working in AeroAstro Lab under guidance of Dr. Hamsa Balakrishnan and PhD student Jasmine Jerry Aloor.",
-        "Collaborating in a project on reinforcement learning using JaxMARL, Large Language Models (LLMs), and Graph Neural Networks (GNNs)"
-      ],      
-      
-      
-    },
-    {
-      title: "Research Intern",
-      company_name: "Carnegie Mellon University",
-      icon: cmu,
-      iconBg: "#bb0201",
-      date: "May 2023 - Present",
-      points: [
-        "Fine-tuned the CellPose model for segmenting nuclei from DAPI-stained images, addressing challenges like large image sizes and overlapping nuclei.",
-        "Applied linear mixed models to analyze nuclei morphology, revealing key insights on aging across species and age groups.",
-        "Contributed to research which is to be submitted to Nature Communications Journal, focusing on the link between nuclei morphology and biological aging, under the guidance of Dr. Min Xu and his PhD student Mostofa Uddin."
-      ],      
-      
-      
-    },
-    {
-      title: "Research Intern",
-      company_name: "Veermata Jijabai Technological Institute",
-      icon: vjti,
-      iconBg: "#E6DEDD",
-      date: "Mar 2024 - Oct 2024",
-      points: [
-        "Collaborated with Dr. Faruk Kazi and Prof. Parul Sindhwad to develop a phishing detection system using the PhishTank and Mendeley datasets, using a combination of classical computer vision and deep learning.",
-  "Implemented feature extraction techniques such as color histogram, wavelet hash, SIFT, LBP, and ORB for screenshot evaluation, enhancing detection accuracy through multimodal analysis and employing models like Mask R-CNN, DeepLabV3+, PSPNet.",
-  "Built a combined classifier with the Unimass dataset for URL, HTML, and visual inspection features, and created a Google Chrome extension for real-time phishing alerts.",
-      ],
-    },
-    {
-      title: "Teaching Assistant",
-      company_name: "Dwarkadas J Sanghvi College of Engineering",
-      icon: djsce,
-      iconBg: "#FFFFFF",
+    title: "Software Developer Intern",
+    company_name: "Myntra Designs Private Limited",
+    icon: myntra,
+    iconBg: "#FFFFFF",
+    date: "Jan 2025 - Jun 2025",
+    points: [
+      "Led auto-suggest integration for Luxe store, building a scalable config-driven framework replacing hardcoded logic; drove 23.7% adoption, 46% search growth, and cut future integration effort by 75% through cross-functional collaboration.",
+      "Initiated and drove improvements in typo correction in auto-suggest via advanced heuristics and BM25, reducing latency by 40% and boosting suggestion accuracy.",
+      "Pruned 35% of noisy auto-suggest queries by LLM-based few-shot prompting (96% accuracy) in collaboration with the Product Manager to fix incomplete suggestions that hurt product discovery, boosting search relevance and engagement."
+    ],
+  },
+ 
+  {
+    title: "Computer Vision Research Intern",
+    company_name: "Veermata Jijabai Technological Institute",
+    icon: vjti,
+    iconBg: "#E6DEDD",
+    date: "Mar 2024 - Oct 2024",
+    points: [
+      "Built a real-time Chrome extension for phishing detection, combining visual, HTML, and URL cues; leveraged multi-scale feature extraction (SIFT, ORB, LBP, wavelet hash) and Mask R-CNN for semantic segmentation.",
+      "Integrated an ensemble voting classifier achieving 95.4% accuracy; communicated results through a peer-reviewed manuscript accepted at International Electronics Symposium 2025.",
+      "Collaborated with Dr. Faruk Kazi in the CoE-CNDS lab, developing multimodal phishing detection systems using classical computer vision and deep learning approaches."
+    ],
+  },
+  {
+    title: "Teaching Assistant",
+    company_name: "Dwarkadas J Sanghvi College of Engineering",
+    icon: djsce,
+    iconBg: "#FFFFFF",
       date: "Aug 2023 - Jan 2024",
       points: [
         "Served as a Teaching Assistant for Prof. Aniket Kore, contributing to the effective delivery of course content.",

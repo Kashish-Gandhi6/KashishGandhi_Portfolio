@@ -9,7 +9,7 @@ const Contact = () => {
   return (
     <div className={`flex flex-col gap-10 overflow-hidden justify-center items-center`}>
       {/* Move EarthCanvas above the Contact div */}
-      <div style={{height:'50vh'}}>
+      <div style={{height:'40vh'}}>
       <EarthCanvas />
       </div>
       <motion.div

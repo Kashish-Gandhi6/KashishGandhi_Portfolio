@@ -14,7 +14,7 @@ const App = () => {
       <About />
       </div>
       <Tech />
-     <Achievements />
+     
       <div className="relative z-0" id="work">
       <Experience />
       </div>
@@ -23,6 +23,7 @@ const App = () => {
       </div>
       
       <div className="relative z-0" id="contact" >
+      <Achievements />
       <Contact />
       </div> 
         <StarsCanvas />

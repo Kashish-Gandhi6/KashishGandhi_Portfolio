@@ -56,6 +56,7 @@ import websiteicon from "./websiteicon.png";
 import myntra from "./company/myntra.png";
 import cyberbullying from "./cyberbullying.png";
 import mit from "./company/mit.svg";
+import profilephoto from './profilephoto.jpeg'
 export {
   logo,
   backend,
@@ -111,5 +112,6 @@ export {
   websiteicon,
   myntra,
   cyberbullying,
-  mit
+  mit,
+  profilephoto
 };
