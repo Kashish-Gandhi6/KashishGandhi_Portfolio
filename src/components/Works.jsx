@@ -3,12 +3,23 @@ import { Tilt } from "react-tilt";
 import { motion } from "framer-motion";
 
 import { styles } from "../styles";
-import { github, pdf, solarpaper, deepfake, pcos, disease, phishing,websiteicon,cyberbullying } from "../assets";
+import { github, pdf, solarpaper, deepfake, pcos, disease, phishing,websiteicon,cyberbullying,cmupaper } from "../assets";
 import { SectionWrapper } from "../hoc";
 import { projects } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
 
 const papers = [
+  {
+    title: "Unsupervised Multi-scale Segmentation of Cellular cryo-electron Tomograms with Stable Diffusion Foundation Model",
+    description: "Preprint: BioRxiv",
+    tags: [
+      { name: "Stable Diffusion", color: "blue-text-gradient" },
+      { name: "Unsupervised Learning", color: "green-text-gradient" },
+      { name: "LoRA", color: "pink-text-gradient" },
+    ],
+    image: cmupaper,
+    pdf_link: "https://doi.org/10.1101/2025.06.25.661425",
+  },
   {
     title: "A Multimodal Framework for Deepfake Detection",
     description: "Published in Journal of Electrical Systems 20-10 s (2024): 4772-4787, SCOPUS Indexed",
