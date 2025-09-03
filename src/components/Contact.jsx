@@ -26,7 +26,7 @@ const Contact = () => {
           <a href="https://github.com/Kashish-G" target="_blank" rel="noopener noreferrer">
             <img src={github} alt="GitHub" className="w-8 h-8 hover:opacity-80 transition duration-200" />
           </a>
-          <a href="mailto:kashishgandhi6112003@gmail.com" target="_blank" rel="noopener noreferrer">
+          <a href="mailto:kgandhi2@andrew.cmu.edu" target="_blank" rel="noopener noreferrer">
             <img src={emailIcon} alt="Email" className="w-8 h-8 hover:opacity-80 transition duration-200" />
           </a>
         </div>

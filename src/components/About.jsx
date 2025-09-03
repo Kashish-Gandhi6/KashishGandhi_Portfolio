@@ -60,7 +60,6 @@ const About = () => {
           </p>
         </motion.div>
 
-        {/* Photo - right column */}
         <motion.div
           variants={fadeIn("left", "", 0.3, 1)}
           className="flex-shrink-0 lg:w-[350px] w-full"
@@ -71,7 +70,6 @@ const About = () => {
               alt="Profile"
               className="w-full h-[70vh] object-cover rounded-[20px] shadow-card"
             />
-            {/* Optional: Add a gradient overlay for styling consistency */}
             <div className="absolute inset-0 bg-gradient-to-br from-transparent via-transparent to-black/20 rounded-[20px]" />
           </div>
         </motion.div>
