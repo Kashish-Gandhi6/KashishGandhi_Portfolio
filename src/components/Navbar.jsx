@@ -19,8 +19,7 @@ const Navbar = () => {
   const [active, setActive] = useState("");
   const [toggle, setToggle] = useState(false);
 
-  // Replace this URL with your actual Google Drive resume link
-  const resumeLink = 'https://drive.google.com/file/d/1UcLHv1n-8ZpNYlbnTmOCBfodr0QOlXFG/view?usp=share_link'; 
+  const resumeLink = 'https://drive.google.com/file/d/1NCgP-qinVynAkkS0Urpcn0MwUmRsYOiX/view?usp=share_link'; 
 
   return (
     <nav className={`${styles.paddingX} w-full flex items-center py-5 fixed top-0 z-20 bg-primary`}>
